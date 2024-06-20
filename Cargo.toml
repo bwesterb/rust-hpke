@@ -55,6 +55,9 @@ zeroize = { version = "1", default-features = false, features = ["zeroize_derive
 #   https://github.com/Argyle-Software/kyber/issues/73
 #   https://github.com/Argyle-Software/kyber/issues/75
 #   https://github.com/Argyle-Software/kyber/issues/77
+version = "0.6"
+git = "https://github.com/bwesterb/argyle-kyber"
+rev = "d22c627406d436fa8446a0df48715b0ab78041c4"
 default-features = false
 features = ["kyber768", "std"] # TODO get rid of std dep
 optional = true
